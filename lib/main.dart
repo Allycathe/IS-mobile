@@ -9,8 +9,8 @@ class MiAppMapa extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: const PantallaInicio(),
+    return const MaterialApp(
+      home: PantallaInicio(),
     );
   }
 }
